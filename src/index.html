@@ -37,7 +37,7 @@
   xrextras-gesture-detector
   xrweb="allowedDevices: any">
   <a-assets>
-    <video id="alpha-video" src="./assets/alpaca.mp4" muted loop></video>
+    <video id="collage1" src="./assets/collage1.mp4" muted loop></video>
   </a-assets>
 
   <a-entity
@@ -53,11 +53,11 @@
 
   <a-camera position="0 2 2"></a-camera>
 
-  <a-plane
-    width="1.78"
-    position="0 0.915 0"
-    scale="3 3 3"
-    chromakey-video="src: #alpha-video"></a-plane>
+  <xrextras-named-image-target name="collage1">
+    <a-plane
+      width="0.748"
+      chromakey-video="src: #collage1; color: 0x0; similarity: 0; smoothness: 0.161; spill: 0;"></a-plane>
+  </xrextras-named-image-target>
 
   <a-plane
     height="2000"

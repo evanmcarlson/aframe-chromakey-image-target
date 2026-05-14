@@ -1,0 +1,23 @@
+{
+  "imagePath": "image-targets/collage1_luminance.png",
+  "metadata": null,
+  "name": "collage1",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 4284,
+    "height": 5712,
+    "isRotated": false,
+    "originalWidth": 4284,
+    "originalHeight": 5712
+  },
+  "resources": {
+    "originalImage": "collage1_original.png",
+    "croppedImage": "collage1_cropped.png",
+    "thumbnailImage": "collage1_thumbnail.png",
+    "luminanceImage": "collage1_luminance.png"
+  },
+  "created": 1778746191621,
+  "updated": 1778746191621
+}

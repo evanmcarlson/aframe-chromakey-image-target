@@ -22,7 +22,7 @@ const chromaKeyComponent = {
 
     // set up gui
     const gui = new dat.GUI({width: 250})
-    gui.addColor({color: 0x19ae31}, 'color').onChange((e) => {
+    gui.addColor({color: 0x0}, 'color').onChange((e) => {
       greenScreenMaterial.uniforms.keyColor.value.set(e)
     }).name('Color')
     gui.add(greenScreenMaterial.uniforms.similarity, 'value', 0, 1, 0.001)
